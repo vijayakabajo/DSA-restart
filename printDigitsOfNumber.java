@@ -27,7 +27,7 @@ class Main{
 
         while(divisor != 0){    //divisor because if num used it will not work for 1000,4500...
             int quotient=num/divisor;
-            System.out.println(quotient);  //printing the digits from left to right
+            System.out.println(quotient); //printing  the digits from left to right
 
             num=num%divisor;  //updating num 
             divisor=divisor/10;  //reducing divisor
